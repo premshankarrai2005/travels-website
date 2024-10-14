@@ -1,0 +1,24 @@
+//############# Exercise -1 ################
+
+//create a program for random search between 1 to 100
+let a=Math.random() * 100
+a=Number.parseInt(a);
+let inp;
+let score=100;
+while(inp!=a){
+    score=score-1;
+    inp=prompt("Enter the actual number between 1 to 100");
+    if(inp==a){
+        console.log("Congratulation you won the game")
+        console.log(`guess the actual number in ${100-score} chances.`)
+    }
+    else if(inp>a && inp<100){
+        console.log("your number is greater than the number.")
+    }
+    else if(inp<a && inp>0){
+        console.log("your number is smaller  than the number.")
+    }
+    else{
+        console.log("Enter the number between 1 to 100")
+    }
+}

@@ -1,0 +1,97 @@
+/*let num=[12,34,52,13,432,213,21]
+num.sort()
+console.log(num)*/ //this is sorting on the basis of first digit like 1,2,3 this is not in asscending order
+ 
+
+//for ascending order
+
+/*let num=[12,34,52,432,213,21];
+const compare=(a,b)=>{
+    return a-b
+}
+let asce=num.sort(compare)
+console.log(asce)*/
+
+//  for descending order
+
+/*let num=[12,34,52,432,213,21];
+const compare=(a,b)=>{
+    return b-a
+}
+let asce=num.sort(compare)
+console.log(asce)*/
+  
+
+/*const prem={
+    prem:99,
+    fkdfjs:90,
+    jiopke:98
+}
+for(let a in prem){
+    console.log("value of " +a+' is ' +prem[a] )
+}*/
+
+
+//  Map
+
+/*let age=[23,45,67,89,34];
+let increments=age.map((value,index,age)=>{
+    console.log(value,index,age);
+     return value +2 //or index
+});
+console.log(increments);*/
+
+
+//reduce
+
+/*let marks=[96,65,97,89,95];
+let aftercheck=marks.reduce((a,b)=>{
+    return a+b
+});
+console.log(aftercheck)*/
+
+
+//Array practice
+
+// problem 1
+
+/*let arr=[1,23,4,56,88,44]
+let newdigit=prompt("Enter the new the element")
+newdigit=Number.parseInt(newdigit)
+arr.push(newdigit);
+console.log(arr)*/
+
+//problem 2
+ /*let arr=[2,3,4,5,67]
+ let newdigit;
+ do{
+    newdigit=prompt("enter the new digit")
+    newdigit=Number.parseInt(newdigit)
+    arr.push(newdigit)
+    
+ }while(newdigit!=0)//we are using do while because it also print that value
+    console.log(arr)*/
+
+//Problem 3
+
+/*let ar=[34,57,87,34,10,20,30,40]
+let newarr=ar.filter((a)=>{
+    return a%10==0
+})
+console.log(newarr)*/
+
+//problem 4
+
+/*let prem=[2,3,4,5,6]
+let newarr=prem.map((x)=>{
+    return x*x
+})
+console.log(newarr)*/
+
+//problem 5
+
+/*let fact=[1,2,3,4,5]
+let newfact=fact.reduce((x,y)=>{
+    return x*y
+})
+console.log(newfact)*/

@@ -1,0 +1,50 @@
+// 1.problem:-write a program to print a character of string using for loop
+
+/*let a="prem";
+for(i=0;i<a.length;i++){
+    console.log(a[i]);
+}*/
+
+
+//string practiceset
+
+// 1.problem
+
+/*let str="har\""
+console.log(str.length)*/
+
+//2.problem
+
+/*const sentence="fox is very dangerous amimal in forest"
+const word="fox2"
+console.log(sentence.includes(word))
+console.log(`the word "${word}" ${sentence.includes(word) ?  ' is ':' is not '} in the sentence` );*/
+
+//3.problem
+
+/*let str="ramu";
+console.log(str.toUpperCase());*/
+
+//4.problem
+
+/*let sentence="please give me 1000"
+//let word=sentence.slice("please give me ".length)
+    //or
+let word=sentence.slice(15)    
+console.log(word)*/
+
+//5.problem
+
+/*let name="archana"
+name[4]="m"
+console.log(name) //it is not change because string is immutable*/
+
+
+// for loop
+
+/*let student_marks=[45,87,98,90,76,"harri"]
+
+for(let i=0;i<student_marks.length;i++){
+console.log(student_marks[i])
+}
+console.log(student_marks.length)*/

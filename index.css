@@ -1,0 +1,21 @@
+div.prem{
+    background-color: aquamarine;
+    font-size: 45px;
+    height: 500px;
+    padding: 0;
+    margin: 0;
+
+}
+.prem ul{
+    border: 2px solid blue;
+    padding: 0;
+    margin: 0;
+}
+h1,h2{
+    color: brown;
+}
+.bulbcontainer{
+    height: 321px;
+    width: 321px;
+    background-color: blueviolet;
+}

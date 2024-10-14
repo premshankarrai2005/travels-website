@@ -1,0 +1,49 @@
+/*let a=prompt("what's your age?")
+a=Number.parseInt(a)
+if(a<0){
+    alert("this is a invalid age.")
+}
+else if(a>0 && a<9){
+    alert("you are a kid and you can not think about driving.")
+}
+else if(a>9 && a<18){
+    alert("you are a kid and you can  think about driving.")
+}
+else{
+    alert("your age is more than 18 as your wish you can drive.")
+}*/
+
+// 2.switch case  statement 
+
+/*const exprs='payasam';
+switch (exprs) {
+    case 'orange':
+        console.log("the price of the orange is 2.32pound.");
+        break;
+    case 'mango':
+    case 'payasam':
+        console.log("the price of the mango and payasam is 3.56 pound.");
+        break;
+    default:
+        console.log('sorry,we unable to identify.');
+        break;
+}*/
+
+
+// 3.number is even or odd
+
+/*let a=prompt("enter the number=")
+a=Number.parseInt(a)
+if (a%2==0){
+    console.log("Nuber is even")
+}
+else{
+    console.log("Number is odd")
+}*/
+
+
+// 4.you can drive or not using turnary operator
+/*let age=20
+let a=age>19? "you can drive." :"you can't drive."
+console.log(a)*/
+
